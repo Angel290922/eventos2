@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="icon" href="iconomuseo.gif" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Museo de Pinal General Tomas Mejia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-o9zIGqUORi0sL4lX6yX6P7BYvwydZSM3J6ca5eO9GW7mkBo/XkLZYmRVOqDIOnBr" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-image: url('museoexi1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black;
+            padding: 6em;
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            margin-top: 10px;
+            font-size: 3em;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #fff;
+            text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+            transition: text-shadow 0.3s ease-in-out;
+        }
+
+        h1:hover {
+            text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.8);
+        }
+
+        header p {
+            color: white;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        section img {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            float: left;
+            margin-right: 20px;
+        }
+
+        section .text-container {
+            overflow: hidden;
+        }
+
+        section h2,
+        section h5,
+        section p {
+            color: white;
+            font-family: 'Times New Roman', serif;
+            font-size: 1.1em;
+        }
+
+        @media only screen and (max-width: 768px) {
+            header {
+                padding: 1em;
+            }
+
+            header img {
+                max-width: 100%;
+            }
+
+            h1 {
+                margin-top: 0;
+            }
+
+            section img {
+                max-width: 100%;
+                float: none;
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+
+        #eventos {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        /* Estilos para la tabla de itinerario */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            color: white;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #333;
+        }
+
+        footer {
+            background-image: url('finalizacion.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 2em 0;
+            color: #white;
+            text-align: center;
+        }
+
+        footer section {
+            text-align: left;
+        }
+
+        footer section .social-icons img {
+            width: 50px;
+        }
+
+        .footer-text {
+            color: white;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Nuestros Eventos</h1>
+    </header>
+
+    <!-- Resto del código permanece igual -->
+
+    <!-- Sección de eventos con un ID "eventos" -->
+    <section id="eventos">
+        <h2>Eventos</h2>
+        <p>Eventos a realizar en los proximos dias.</p>
+
+        <!-- Tabla de itinerario -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Evento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>Apertura del Museo</td>
+                </tr>
+                <tr>
+                    <td>12:00 PM</td>
+                    <td>Charla sobre la historia del museo</td>
+                </tr>
+                <tr>
+                    <td>02:00 PM</td>
+                    <td>Visita guiada a las exposiciones</td>
+                </tr>
+                <!-- Agrega más filas según sea necesario -->
+            </tbody>
+        </table>
+</body>
+
+</html>
